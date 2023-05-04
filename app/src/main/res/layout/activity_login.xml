@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".Login">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your phone number"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone no."
+        android:textSize="25dp"
+        android:gravity="center"
+        android:inputType="phone"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@id/text"
+        />
+    <Button
+        android:id="@+id/btngenotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone"
+        android:layout_marginBottom="30dp"
+        android:text="Generate OTP"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="OTP"
+        android:textSize="25dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@id/btngenotp"
+        />
+    <Button
+        android:id="@+id/verifyotp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/otp"
+        android:layout_marginBottom="30dp"
+        android:text="Verify OTP"
+        android:textSize="20dp"
+        android:enabled="false"/>
+    <ProgressBar
+        android:id="@+id/bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verifyotp"
+       android:visibility="invisible"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

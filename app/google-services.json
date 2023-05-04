@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "285747451294",
+    "project_id": "otpverifysignin",
+    "storage_bucket": "otpverifysignin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285747451294:android:04f1e0edf0a82e0ba7b28f",
+        "android_client_info": {
+          "package_name": "com.example.otpverifysignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "285747451294-s2lfd26n9qls0j42lcfn2kaaurp1ck5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzT6xHylc1o6d1iDIQ7CQsfX1f66jI99w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "285747451294-s2lfd26n9qls0j42lcfn2kaaurp1ck5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
